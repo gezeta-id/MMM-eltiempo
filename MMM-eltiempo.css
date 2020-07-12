@@ -1,0 +1,69 @@
+.etn-card { 
+  position: relative; 
+  padding: 0; margin: 0;
+  width: 480px;
+  height: 360px;
+}
+.etn-card img { padding: 0; margin: 0; }
+.etn-content, .etn-content * {
+    text-shadow: 2px 2px 2px #000, -2px 2px 2px #000, 2px -2px 2px #000, -2px -2px 2px #000 !important;
+}
+.etn-content { 
+   position: absolute; 
+   top: 0px; 
+   left: 0px; 
+   width: 100%;
+   height: 100%;
+   margin: 0;
+}
+.etn-content span { 
+   padding: 10px; 
+   display: inline-block;
+   position: absolute;
+}
+.etn-content span.etn-city {
+  font-size: 48px;
+  whitespace: nowrap;
+  bottom: 8px;
+  left: 8px;
+}
+.etn-content span.etn-current {
+  font-size: 64px;
+  bottom: 48px;
+  right: 8px;
+}
+.etn-content span.etn-maxmin {
+  font-size: 32px;
+  bottom: 8px;
+  right: 8px;
+}
+.etn-content span.etn-viento {
+    top:8px;
+    right: 8px;
+    font-size: 20px;
+}
+.etn-content span.etn-lluvia {
+    top: 30px;
+    right: 8px;
+    font-size: 20px;
+}
+
+.etn-graph {
+    height: 200px;
+}
+
+.etn-cool {
+    color: cyan;
+}
+.etn-normal {
+    color: white;
+}
+.etn-hot {
+    color: orange;
+}
+.etn-inferno {
+    color: red;
+}
+.etn-cold {
+    color: aliceblue;
+}
